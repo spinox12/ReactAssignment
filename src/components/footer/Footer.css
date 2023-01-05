@@ -8,11 +8,17 @@ div.footer{
     /*background: linear-gradient(175.87deg, #682381 40.53%, #2E1E4D 163.59%)*/
 }
 div.title{
+    height: 16px;
+width: 63px;
+left: 691px;
+top: 60px;
+border-radius: nullpx;
+
    position:absolute;
-   height:16px;
+  /*  height:16px;
    left:44.2%;
    right:43.2%;
-   top:calc(50% - 16px/2 - 56px);
+   top:calc(50% - 16px/2 - 56px); */
    font-family: 'Proxima Nova';
    font-style: normal;
    font-weight:600;
@@ -24,11 +30,17 @@ div.title{
 }
 
 div.body{
+    height: 96px;
+width: 500px;
+left: 470px;
+top: 92px;
+border-radius: nullpx;
+
     position: absolute;
-    left:0%;
+    /* left:0%;
     right:0%;
     top:25%;
-    bottom:0%;
+    bottom:0%; */
     font-family: 'Proxima Nova';
     font-style:normal;
     font-weight:400;

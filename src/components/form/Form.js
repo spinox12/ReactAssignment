@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React,{ useState } from "react";
 
 const Form=()=>{
 
@@ -22,9 +22,9 @@ const Form=()=>{
         
        
        <div>
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="form1" onSubmit={handleSubmit}>
            <div className="form-group">
-            
+               
                <input type="text" name="fullName" className="form-control"
                placeholder="Saniyo Joseph" value={formField.fullName} onChange={handleChange}/>
                <input type="number" name="mobile" className="form-control"
